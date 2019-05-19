@@ -1,4 +1,4 @@
-#Object named Dorando, instance of NameTest.
+#Object named GetName, instance of NameTest.
 #When the object is first created there is no argument
 #Use a setter to set FirstName and  LastName in one string 
 #Use a getter to get FirstName, seperate for LastName
@@ -16,6 +16,6 @@ class NameTest():
     def GetLastName(self):
         return (self.FirstName_LastName.split()[1])
 
-Dorando = NameTest()
+GetName = NameTest()
 
 #Could I have added FirstName_LastName as an argument to GetFirstName??
