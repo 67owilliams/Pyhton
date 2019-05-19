@@ -1,0 +1,5 @@
+print ("Part of this text\r\nis on the next line.")
+print ("This is an A with a grave accent: \xC0.")
+print ("This is a drawing character: \u2562.")
+print ("This is a pilcrow: \266.")
+print ("This is a division sign: \xF7.")
