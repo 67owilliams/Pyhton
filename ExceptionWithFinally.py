@@ -5,7 +5,7 @@ try:
     print ("Raising an exception.")
 except ValueError:
     print ("ValueError Exception!")
-    sys.xit()
+    sys.exit()
 finally:
     print ("Taking care of last minute details.")
 
